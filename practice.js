@@ -2,31 +2,31 @@
 
 //Create a variable called myName that is a string data type
 
-const myName = "Aaron"
+const myName = "Aaron";
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
-const myAge = 32
+const myAge = 32;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-const lovesCode = true
+const lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-const greatestFear = undefined
+const greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-const devMountainGoal = null
+const devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,8 +35,8 @@ const devMountainGoal = null
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-function greeting(name){
-  return `Hello, ${name}`
+function greeting(name) {
+  return `Hello, ${name}`;
 }
 
 //////////////////PROBLEM 7////////////////////
@@ -44,9 +44,9 @@ function greeting(name){
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-let newGreeting = function(name){
-  return `Hello, ${name}`
-}
+let newGreeting = function(name) {
+  return `Hello, ${name}`;
+};
 
 //////////////////PROBLEM 8////////////////////
 
@@ -54,7 +54,7 @@ let newGreeting = function(name){
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-let groceries = ["apples", "milk", "eggs", "bread"]
+let groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -69,13 +69,13 @@ let dog = {
   color: "brown",
   age: 10,
   goodBoy: true
-}
+};
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-let devMountainClassPet = dog.name
+let devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -87,10 +87,12 @@ let devMountainClassPet = dog.name
 // with NAMEPARAM being the name parameter being passed in
 
 // Code here
-function nameCheck(name){
-  if(name === "Steven") {return "What is up Steven?"} 
-  else if(name === "Bryan") {return "Hey Bryan!"}
-  else return `Cool name, ${name}`
+function nameCheck(name) {
+  if (name === "Steven") {
+    return "What is up Steven?";
+  } else if (name === "Bryan") {
+    return "Hey Bryan!";
+  } else return `Cool name, ${name}`;
 }
 
 //////////////////PROBLEM 11////////////////////
@@ -100,15 +102,15 @@ function nameCheck(name){
 // The add function should return the two parameters added together
 
 //Code Here
-function add(num1, num2){
-  return num1 + num2
+function add(num1, num2) {
+  return num1 + num2;
 }
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
-let mathSum = add(3, 4)
+let mathSum = add(3, 4);
 
 //////////////////PROBLEM 12////////////////////
 
@@ -120,15 +122,15 @@ let mathSum = add(3, 4)
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
-function faveColorFinder(color){
-  if(color === "red") {
-    return "red is a great color"
-  } else if(color === "green"){
-    return "green is a solid favorite color"
-  } else if(color === "black"){
-    return "so trendy"
-  } else{
-    return "you need to evaluate your favorite color choice"
+function faveColorFinder(color) {
+  if (color === "red") {
+    return "red is a great color";
+  } else if (color === "green") {
+    return "green is a solid favorite color";
+  } else if (color === "black") {
+    return "so trendy";
+  } else {
+    return "you need to evaluate your favorite color choice";
   }
 }
 
@@ -170,15 +172,15 @@ let pondScope = ["duck", "realDuck"];
 //Create a variable called age with your age assigned to you
 
 // Code Here
-let age = 32
+let age = 32;
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
-age += 1
+age += 1;
 
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
-age = 999
+age = 999;
